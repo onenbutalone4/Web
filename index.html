@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>"Сайт-визитка"</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;900&display=swap');
+    p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+    </style>
+  <link rel="stylesheet" href="CSS/css-styles.css">
+</head>
+<body style="margin: 0; display: flex; flex-direction: column; min-height: 100vh;">
+  <header style="padding: 20px; border-bottom: 1px solid gray; text-align: center; flex: 0;">
+    <span style="display: flex; flex-direction:row; justify-content: center;">
+      <span style="position: relative; left: -20px;"> <a href="#'bout" style="text-decoration: underline; font-family: serif;
+      font-size: 16px; color: coral;">Обо мне</a> </span>    
+      <span style="position: relative; right: -20px;"> <a href="#skills" style="text-decoration: underline; font-family: serif;
+      font-size: 16px; color: coral;">Навыки</a> </span>
+    </span>
+  </header> <hr>
+  <main style="margin: 0 auto; width: 1000px; display: flex; flex-grow: 1; padding-top: 50px;">
+    <aside style="width: 300px; flex: 0;">
+      <img src="https://kartinkin.net/uploads/posts/2022-07/1657668834_1-kartinkin-net-p-kartinki-s-voprositelnim-znakom-1.jpg" alt="faceperfect" 
+      width="300px"> <br>
+      <p style="display: flex; align-items: center;">
+      <img src="https://static.vecteezy.com/system/resources/previews/005/241/132/non_2x/phone-icon-telephone-icon-symbol-for-app-and-messenger-free-vector.jpg"
+       alt="Telephone-number" width="36px" style="padding-right: 35px;">
+       <a href="" style="text-decoration: underline; font-family: serif; font-size: 20px; color: coral;">7777777</a>
+      </p>
+      <p style="display: flex; align-items: center;">
+        <img src="data:image/png;base64,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"
+       alt="Telephone-number" width="24px" style="position: relative; left: 5px; padding-right: 46px;">
+        <a href="" style="text-decoration: underline; font-family: serif; font-size: 18px; color: coral;">E-connection.us.channel</a>
+      </p>
+    </aside>
+    <section style="flex-grow: 1; padding-left: 50px; display: block;">
+    <h1 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: grey;">Алексей Рыжаков. Разработчик</h1>
+    <h2 id="'bout" style="border-left: solid coral 4px; padding-left: 8px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: grey;">
+    Обо мне</h2>
+    <p style="font-family: 'M PLUS 1p', sans-serif; font-size: 16px;">Родился в Нижнем Новгороде. Увлекался историей, лингвистикой и вот...</p>
+    <h2 id="skills" style="border-left: solid coral 4px; padding-left: 8px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: grey;">
+    Навыки</h2>
+    <ul>
+      <li lang="en" style="font-family: 'M PLUS 1p', sans-serif; font-size: 16px;">HTML</li>
+      <li lang="en" style="font-family: 'M PLUS 1p', sans-serif; font-size: 16px;">CSS</li>
+      <li lang="en" style="font-family: 'M PLUS 1p', sans-serif; font-size: 16px;">JS</li>
+      <li style="font-family: 'M PLUS 1p', sans-serif; font-size: 16px;">История</li>
+    </ul>
+  </section>
+  </main>
+  <footer role="contentinfo" style="border-top: 1px solid gray; padding: 20px; text-align: center; color: gray;">
+  <a href="#" style="text-decoration: underline; font-family: serif; font-size: 18px; color: coral;">MySpace.com</a>
+  " • "
+  <span>2022</span>
+  </footer>
+</body>
+</html>
